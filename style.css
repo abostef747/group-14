@@ -11,15 +11,136 @@ body {
     align-items: center;
     height: 100vh;
     background-color: #f1f1f1;
-}
 
-img {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 10px;
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    box-shadow: 0 0 20px #000000;
-}
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background: linear-gradient(to bottom right, #ffecd2, #fcb69f);
+        color: #333;
+        line-height: 1.6;
+    }
+
+    header {
+        background: linear-gradient(to right, #ff7e5f, #feb47b);
+        color: #fff;
+        padding: 2em 0;
+        text-align: center;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    header h1 {
+        margin: 0;
+        font-size: 2.5em;
+    }
+
+    .container {
+        max-width: 1200px;
+        margin: auto;
+        padding: 20px;
+    }
+
+    .team {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .profile {
+        background: #fff;
+        border: 1px solid #ddd;
+        border-radius: 10px;
+        padding: 20px;
+        flex: 1 1 calc(50% - 20px);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .profile img {
+        width: 150px;
+        height: auto;
+        border-radius: 50%;
+        display: block;
+        margin: 0 auto 10px;
+    }
+
+    .profile h2 {
+        margin: 0 0 10px;
+        text-align: center;
+    }
+
+    .profile p {
+        text-align: center;
+    }
+
+    .profile button {
+        display: block;
+        margin: 10px auto;
+        background: linear-gradient(to right, #ff7e5f, #feb47b);
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        cursor: pointer;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    }
+
+    .profile button:hover {
+        background: linear-gradient(to right, #feb47b, #ff7e5f);
+        transform: scale(1.05);
+        transition: all 0.2s ease-in-out;
+    }
+
+    #details1 {
+        display: none;
+        margin-top: 20px;
+        background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+        padding: 20px;
+        border: 1px solid #ff7f50;
+        border-radius: 10px;
+        color: #333;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        text-align: center;
+        font-size: 1.1em;
+        line-height: 1.8;
+    }
+
+    .hobbies,
+    .career {
+        background: linear-gradient(to right, #fddb92, #d1fdff);
+        padding: 20px;
+        margin-top: 20px;
+        border: 1px solid #d0d0d0;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .hobbies h3,
+    .career h3 {
+        margin: 0 0 10px;
+        color: #555;
+    }
+
+    .hobbies p,
+    .career p {
+        margin: 0;
+        color: #666;
+        font-size: 1em;
+        text-align: justify;
+    }
+
+    footer {
+        background: #333;
+        color: #fff;
+        text-align: center;
+        padding: 10px 0;
+        margin-top: 20px;
+    }
+
+    a {
+        color: #0078D7;
+        text-decoration: none;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
